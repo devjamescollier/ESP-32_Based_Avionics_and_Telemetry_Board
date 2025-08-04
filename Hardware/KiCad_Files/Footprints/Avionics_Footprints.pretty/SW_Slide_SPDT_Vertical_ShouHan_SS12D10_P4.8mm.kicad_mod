@@ -1,0 +1,87 @@
+(footprint "SW_Slide_SPDT_Vertical_ShouHan_SS12D10_P4.8mm"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (attr through_hole)
+  (descr "SPDT vertical slide switch, ShouHan SS12D10G3/G5, body 12.7x6.7mm, 3 pins P4.8mm (drawing HR-DR-SS12D10-00); pins 0.8mm thk x 1.3mm, drill 1.7mm")
+  (tags "switch slide SPDT SS12D10 THT")
+
+  (property "Reference" "REF**" (at 0 -4.6 0)
+    (layer "F.SilkS")
+    (uuid "56a149a7-6755-438f-8093-2095d5c3f4af")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "SW_Slide_SPDT_Vertical_ShouHan_SS12D10_P4.8mm" (at 0 4.6 0)
+    (layer "F.Fab")
+    (uuid "9c2d8638-4a0c-45e9-88ed-1a65f2e6f917")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "0c6a3a60-1c30-4c49-a31c-7eba2ad98158")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -6.85 -3.85)
+    (end 6.85 3.85)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "249a38f2-90aa-4f7a-ab27-f976352bc818")
+  )
+
+  (fp_rect
+    (start -6.46 -3.46)
+    (end 6.46 3.46)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "6e33438e-1a6d-4de2-9bfa-ff1f48771517")
+  )
+
+  (fp_rect
+    (start -6.35 -3.35)
+    (end 6.35 3.35)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "1e5dad91-8bb8-4bea-a3cf-a584310f3309")
+  )
+
+  (pad "1" thru_hole rect
+    (at -4.8 0)
+    (size 2.7 2.7)
+    (drill 1.7)
+    (layers "*.Cu" "*.Mask")
+    (uuid "9ecfbbbd-1ee9-4164-ba22-a86e4e2c105f")
+  )
+
+  (pad "2" thru_hole circle
+    (at 0 0)
+    (size 2.7 2.7)
+    (drill 1.7)
+    (layers "*.Cu" "*.Mask")
+    (uuid "3c5cace0-ee44-4888-b0dd-c801198eca33")
+  )
+
+  (pad "3" thru_hole circle
+    (at 4.8 0)
+    (size 2.7 2.7)
+    (drill 1.7)
+    (layers "*.Cu" "*.Mask")
+    (uuid "0a8cfd3d-8f34-4452-ba2d-caf3b730a3fd")
+  )
+	(model "${KIPRJMOD}/3D_Models/SS12D10G5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,110 @@
+(footprint "TE_MS5611-01BA03_LGA-8_3x5mm_P1.25mm"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (attr smd)
+  (descr "TE MS5611-01BA03 barometric sensor, 5.0x3.0mm metal-lid LGA-8, pads 1.1x0.6mm, column pitch 2.2mm, row pitch 1.25mm per TE datasheet 'Recommended pad layout' (06/2017). Keep tracks out from between pads.")
+  (tags "MS5611 barometer pressure LGA-8 TE")
+
+  (property "Reference" "REF**" (at 0 -3.7 0)
+    (layer "F.SilkS")
+    (uuid "c11764ae-82a6-4eb0-8747-c7f299ba5bbb")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "TE_MS5611-01BA03_LGA-8_3x5mm_P1.25mm" (at 0 3.7 0)
+    (layer "F.Fab")
+    (uuid "b2cad09d-24fd-4e7b-bd15-a0f6fcea3d13")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "c07364e4-52af-4a3b-a6f6-8c25483572fb")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -2 -2.85)
+    (end 2 2.85)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "72eb78ed-c1ad-44c6-8124-d10322554582")
+  )
+
+  (fp_rect
+    (start -1.8 -2.62)
+    (end 1.8 2.62)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "1bce3f00-660d-4ef0-aa3c-181c491e5e34")
+  )
+
+  (fp_rect
+    (start -1.5 -2.5)
+    (end 1.5 2.5)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "99c1520e-39c6-4dc6-976d-23d4bf79e158")
+  )
+
+  (pad "1" smd rect
+    (at -1.1 -1.875)
+    (size 1.1 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "984b324c-4d8b-46e0-aace-df1dac6662f9")
+  )
+
+  (pad "2" smd rect
+    (at -1.1 -0.625)
+    (size 1.1 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "c32aa7d1-448e-4134-97ab-a0bd1519a9c5")
+  )
+
+  (pad "3" smd rect
+    (at -1.1 0.625)
+    (size 1.1 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "62ed909a-73af-4920-a9fd-d379903d5392")
+  )
+
+  (pad "4" smd rect
+    (at -1.1 1.875)
+    (size 1.1 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "bccde121-0d53-4348-b8e8-960184a82dd4")
+  )
+
+  (pad "5" smd rect
+    (at 1.1 1.875)
+    (size 1.1 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "8a3eb651-599c-432a-873c-456fe7e21ac6")
+  )
+
+  (pad "6" smd rect
+    (at 1.1 0.625)
+    (size 1.1 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "957c695f-f6b6-4c0c-9f4e-652561277c01")
+  )
+
+  (pad "7" smd rect
+    (at 1.1 -0.625)
+    (size 1.1 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "b32b89ce-e678-4c07-9357-346cac8b8ca8")
+  )
+
+  (pad "8" smd rect
+    (at 1.1 -1.875)
+    (size 1.1 0.6)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "88b5cc78-82bb-4e9b-82f6-4b82866a2114")
+  )
+
+  (fp_circle (center -1.1 -2.42) (end -1.0 -2.42) (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (uuid "2b7d4c11-5e0a-4f3d-9a61-7c1e2f0a9b02"))
+)
