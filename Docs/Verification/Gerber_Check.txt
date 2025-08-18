@@ -1,0 +1,19 @@
+gerber dir: Manufacturing/Gerbers
+files: 12
+board outline: 50.00 x 80.00 mm
+F_Cu           ops   1400 flashes   767 apertures  56 macros 1
+In1_Cu         ops    431 flashes   430 apertures  12 macros 1
+In2_Cu         ops    493 flashes   430 apertures  14 macros 1
+B_Cu           ops    664 flashes   430 apertures  16 macros 1
+F_Mask         ops    369 flashes   369 apertures  51 macros 1
+B_Mask         ops     32 flashes    32 apertures  12 macros 1
+F_Silkscreen   ops   1763 flashes   369 apertures  56 macros 1
+B_Silkscreen   ops   2086 flashes    32 apertures  14 macros 1
+F_Paste        ops    338 flashes   338 apertures  37 macros 1
+Edge_Cuts      ops      4 flashes     0 apertures   1 macros 0
+drill hits: 430 plated, 4 non-plated; sizes [0.3, 0.6, 0.85, 1.0, 1.7, 1.9, 3.2]
+drill/copper registration: PASS
+F_Cu copper within 0.2 mm of edge: 0 px samples (OK)
+In1_Cu copper within 0.2 mm of edge: 0 px samples (OK)
+In2_Cu copper within 0.2 mm of edge: 0 px samples (OK)
+B_Cu copper within 0.2 mm of edge: 0 px samples (OK)
