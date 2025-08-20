@@ -1,0 +1,6 @@
+Designator,Comment,Footprint,LCSC Part #,Qty,Assembly
+BZ1,TMB12A03,Buzzer_12x9.5RM7.6,C96222,1,hand-solder (not JLC SMT assembly)
+"J2,J3,J4,J5",Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,C49257,4,hand-solder (not JLC SMT assembly)
+J7,XT30PW-M,AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,C431092,1,hand-solder (not JLC SMT assembly)
+J8,ESC,PinHeader_1x03_P2.54mm_Vertical,C49257,1,hand-solder (not JLC SMT assembly)
+SW3,SS12D10G5,SW_Slide_SPDT_Vertical_ShouHan_SS12D10_P4.8mm,C7431054,1,hand-solder (not JLC SMT assembly)
